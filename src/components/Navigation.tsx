@@ -29,8 +29,8 @@ const Navigation = () => {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="font-bold text-xl text-gradient">
-            AJ
+          <div className="font-bold text-xl text-white">
+            AJALUXAN
           </div>
 
           {/* Desktop Menu */}

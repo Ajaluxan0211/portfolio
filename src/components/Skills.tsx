@@ -52,9 +52,9 @@ const Skills = () => {
   ];
 
   const stats = [
-    { label: 'Years Experience', value: '5+' },
-    { label: 'Projects Completed', value: '50+' },
-    { label: 'Technologies Mastered', value: '25+' },
+    { label: 'Years Experience', value: '1+' },
+    { label: 'Projects Completed', value: '2+' },
+    { label: 'Technologies Mastered', value: '5+' },
     { label: 'Coffee Consumed', value: '∞' }
   ];
 
@@ -64,7 +64,7 @@ const Skills = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Skills & <span className="text-gradient">Expertise</span>
+              Skills & <span className="text-white">Expertise</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               A comprehensive toolkit built through years of hands-on experience 
@@ -81,7 +81,7 @@ const Skills = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="pt-6">
-                  <div className="text-3xl font-bold text-gradient mb-2">{stat.value}</div>
+                  <div className="text-3xl font-bold text-white mb-2">{stat.value}</div>
                   <div className="text-sm text-muted-foreground">{stat.label}</div>
                 </CardContent>
               </Card>
@@ -122,7 +122,7 @@ const Skills = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="text-center mt-16 animate-fade-in">
+          {/* <div className="text-center mt-16 animate-fade-in">
             <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-2xl p-8 border border-border">
               <h3 className="text-2xl font-bold mb-4">Ready to work together?</h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
@@ -146,7 +146,7 @@ const Skills = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

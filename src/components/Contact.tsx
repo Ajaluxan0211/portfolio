@@ -19,19 +19,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'alex@example.com',
-      href: 'mailto:alex@example.com'
+      value: 'ajaluxan.t@gmail.com',
+      href: 'mailto:ajaluxan.t@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+94 77 399 4039',
+      href: 'tel:++94773994039'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Neervely, Jaffna',
       href: 'https://maps.google.com'
     }
   ];
@@ -41,19 +41,13 @@ const Contact = () => {
       icon: Github,
       label: 'GitHub',
       href: 'https://github.com',
-      username: 'alexjohnson'
+      username: 'Ajaluxan'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       href: 'https://linkedin.com',
-      username: 'alex-johnson-dev'
-    },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com',
-      username: '@alexjohnsondev'
+      username: 'Ajaluxan'
     }
   ];
 
@@ -63,7 +57,7 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Let's <span className="text-gradient">Connect</span>
+              Let's <span className="text-white">Connect</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Ready to bring your ideas to life? I'd love to hear about your project 

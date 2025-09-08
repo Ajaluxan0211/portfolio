@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Code, Palette, Zap } from 'lucide-react';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/ajai.jpg';
 
 const About = () => {
   const highlights = [
@@ -27,10 +27,10 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="text-gradient">Me</span>
+              About <span className="text-white">Me</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Passionate developer with 5+ years of experience creating digital solutions 
+              Passionate developer with 1+ years of experience creating digital solutions 
               that bridge the gap between design and functionality.
             </p>
           </div>
@@ -52,7 +52,7 @@ const About = () => {
                 Building the future, one line of code at a time
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm a full-stack developer based in San Francisco, specializing in modern 
+                I'm a full-stack developer based in Sri lanka, specializing in modern 
                 web technologies. My journey began with a curiosity for how things work, 
                 which led me to fall in love with programming and design.
               </p>

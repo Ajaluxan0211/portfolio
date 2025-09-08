@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Hi, I'm{' '}
-              <span className="text-gradient">Alex Johnson</span>
+              <span className="text-white">Ajaluxan Thavendrarajah</span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8">
               Full Stack Developer & UI/UX Enthusiast
